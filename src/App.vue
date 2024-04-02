@@ -1,10 +1,17 @@
 <template>
-  <div>aaa</div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  data() {
+    return {
+      r_data: 'hi'
+    }
+  }
 }
 </script>
 
